@@ -6,6 +6,7 @@ import PageNotFound from './components/pageNotFound/PageNotFound.jsx'
 import Pizza from './components/resturant/pizza/Pizza.jsx'
 import Hamburger from './components/resturant/hamburger/Hamburger.jsx'
 import Fish from './components/resturant/fish/Fish.jsx'
+import Home from './components/home/Home.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/resturant/hamburger' element={<Hamburger />} />
           <Route path='/resturant/pizza' element={<Pizza />} />
           <Route path='/resturant/fish' element={<Fish />} />
+          <Route path='/' element={<Home />} />
           <Route path='*' element={<PageNotFound />} />
 
         </Routes>
