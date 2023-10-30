@@ -26,8 +26,6 @@ export default function Prouducts() {
             </div>
         })
     }
- 
-
     </div>
     
   )
